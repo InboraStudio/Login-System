@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Inbora Studio - Login </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form action="/login" method="post">
+  <span id="title">Sign in</span>
+  <input type="text" id="username" name="username" placeholder="Phone Number">
+  <input type="password" id="password" name="password" placeholder="Password">
+  <div id="button">
+    <input type="submit" value="Login">
+    <span class="rip1"></span>
+    <span class="rip2"></span>
+  </div>
+  <div id="linksParent">
+    <a>Sign up</a>
+    <a>Forgot your password?</a>
+  </div>
+</form>
+<!-- partial -->
+  
+</body>
+</html>
