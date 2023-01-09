@@ -1,6 +1,6 @@
 
 from security_monkey.exceptions import AccountNameExists
-from security_monkey.views import AuthenticatedService
+from security_monkey.views import AuthenticatedService 
 from security_monkey.views import ACCOUNT_FIELDS
 from security_monkey.datastore import Account, AccountType
 from security_monkey.datastore import User
