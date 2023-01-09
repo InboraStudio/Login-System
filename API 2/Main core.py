@@ -75,7 +75,7 @@ def find_changes(accounts, monitors):
     except KeyError as e:
         app.logger.error("The passed in account: {} does not exist in Security Monkey's database.".format(e.message))
         return -1
-
+ 
     manual_run_change_finder(account_names, monitor_names)
 
 
